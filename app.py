@@ -81,6 +81,3 @@ def get_user(id):
         'message': 'User not found',
         'success': False
     })
-
-if __name__ == '__main__':
-    app.run(debug=True)
